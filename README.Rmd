@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# catheRine
+# cblttr
 
 this package contains small functions to make my everyday (data analysis-) life a 
 little easier.  

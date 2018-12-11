@@ -1,6 +1,6 @@
-Package: catheRine
+Package: cblttr
 Type: Package
-Title: catheRine
+Title: cblttr
 Version: 0.0.0.9000
 Authors@R: person("Catherine", "Blatter", email = "catherine.blatter@unibas.ch", role = c("aut", "cre"))
 Description: This package contains several helper functions that I created for 
