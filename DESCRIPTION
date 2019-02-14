@@ -19,7 +19,11 @@ Imports:
    magrittr,
    tableone,
    purrr, 
-   kableExtra
+   kableExtra,
+   stats, 
+   base,
+   methods,
+   graphics
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
