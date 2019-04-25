@@ -2,7 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 [![Build
-Status](https://travis-ci.org/cathblatter/cblttr.png?branch=master)](https://travis-ci.org/cathblatter/cblttr)
+Status](https://travis-ci.org/cathblatter/cblttr.svg?branch=master)](https://travis-ci.org/cathblatter/cblttr)
 
 # cblttr
 
