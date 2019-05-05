@@ -19,10 +19,10 @@
 #'
 freqtable1 <- function(x, useNA="n") {
 
-  absolute <- table(x, useNA = useNA)
-  relative <- round(100*prop.table(table(x, useNA = useNA)),2)
+  N <- table(x, useNA = useNA)
+  Percentage <- round(100*prop.table(table(x, useNA = useNA)),2)
 
-  c <- rbind(absolute, relative)
+  c <- rbind(N, Percentage)
 
   return(c)
 
