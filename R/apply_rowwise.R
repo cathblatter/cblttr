@@ -9,7 +9,6 @@
 #' @return
 #' @export
 #'
-#' @examples
 apply_rowwise <- function(data, vars, func, na.rm = TRUE){
 
   apply(data[ , vars], 1, func, na.rm = na.rm)

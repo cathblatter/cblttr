@@ -1,10 +1,10 @@
 Package: cblttr
 Type: Package
 Title: cblttr
-Version: 0.0.0.9000
+Version: 0.0.1.9000
 Authors@R: person("Catherine", "Blatter", email = "catherine.blatter@unibas.ch", role = c("aut", "cre"))
-Description: This package contains several helper functions that I created for 
-        personal use.
+Description: This package contains several helper functions for 
+        personal use. No guarantee in using the package.
 License: GPL-3
 Encoding: UTF-8
 URL: https://github.com/cathblatter/cblttr/
@@ -23,9 +23,10 @@ Imports:
    stats, 
    base,
    methods,
-   graphics
+   graphics,
+   openxlsx
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)

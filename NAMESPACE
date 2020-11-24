@@ -3,3 +3,5 @@
 export(apply_rowwise)
 export(freqtable1)
 export(hello)
+export(tableone_mat_to_data_frame)
+export(write_tableone_mat_to_xlsx)
