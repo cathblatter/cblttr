@@ -12,19 +12,20 @@ BugReports: https://github.com/cathblatter/cblttr/issues
 LazyData: true
 Depends: R (>= 2.10)
 Imports:
-   dplyr (>= 0.7.5),
-   ggplot2 (>= 2.2.1),
-   crayon,
-   tibble,
-   magrittr,
-   tableone,
-   purrr, 
-   kableExtra,
-   stats, 
-   base,
-   methods,
-   graphics,
-   openxlsx
+    dplyr (>= 0.7.5),
+    ggplot2 (>= 2.2.1),
+    crayon,
+    tibble,
+    magrittr,
+    tableone,
+    purrr,
+    kableExtra,
+    stats,
+    base,
+    methods,
+    graphics,
+    openxlsx,
+    lifecycle
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr

@@ -2,7 +2,6 @@
 
 export(apply_rowwise)
 export(freqtable1)
-export(hello)
 export(myorcid)
 export(myorcid_url)
 export(tableone_mat_to_data_frame)
