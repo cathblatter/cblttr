@@ -11,9 +11,6 @@ write_tableone_mat_to_xlsx(tableone_mat, file)
 
 \item{file}{the name of the file.xlsx}
 }
-\value{
-
-}
 \description{
 Write tableone mat to excel file
 }

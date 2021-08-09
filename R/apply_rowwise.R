@@ -6,7 +6,6 @@
 #' @param na.rm TRUE or FALSE, default = TRUE
 #' @param func the function to apply
 #'
-#' @return
 #' @export
 #'
 apply_rowwise <- function(data, vars, func, na.rm = TRUE){

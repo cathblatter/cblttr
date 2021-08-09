@@ -15,9 +15,6 @@ apply_rowwise(data, vars, func, na.rm = TRUE)
 
 \item{na.rm}{TRUE or FALSE, default = TRUE}
 }
-\value{
-
-}
 \description{
 Apply a function rowwise (usually per observation)
 }

@@ -25,7 +25,8 @@ Imports:
     methods,
     graphics,
     openxlsx,
-    lifecycle
+    lifecycle,
+    rlang
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr

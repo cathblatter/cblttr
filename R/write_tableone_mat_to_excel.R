@@ -3,7 +3,6 @@
 #' @param tableone_mat a tableone-object
 #' @param file the name of the file.xlsx
 #'
-#' @return
 #' @export
 #'
 #' @references developed & published in a gist from Kazuki Yoshida
