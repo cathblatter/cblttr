@@ -28,8 +28,9 @@ Imports:
     openxlsx,
     lifecycle,
     rlang, 
-    xaringan, 
-    icons
+    xaringan
+Remotes:
+    mitchelloharawild/icons
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
