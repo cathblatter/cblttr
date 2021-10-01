@@ -12,5 +12,8 @@ stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://
 this package contains small functions designed for personal use. it is
 not intended and probably not helpful for others.
 
+if you come using some of its content please mention me, thank you (CC
+BY).
+
 warning: there comes no guarantee when using them, they have not yet
 been properly tested!
