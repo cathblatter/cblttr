@@ -27,7 +27,6 @@ Imports:
     graphics,
     openxlsx,
     lifecycle,
-    rlang, 
     xaringan
 Remotes:
     mitchelloharawild/icons
