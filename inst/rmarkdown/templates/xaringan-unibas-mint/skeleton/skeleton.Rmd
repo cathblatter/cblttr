@@ -1,10 +1,12 @@
 ---
-title: unibas template
-author: cb
+title: Main title
+subtitle: Subtitle
+author: Author Name
+date: "20.02.2020"
 output:
   xaringan::moon_reader:
-    seal: false # false = custom title page
-    css: ["css/xaringan-custom.css", "css/footer.css"]
+    seal: true # false = custom title page
+    css: ["css/unibas-mint-custom.css"]
     nature:
       slideNumberFormat: "%current%/%total%"
       highlightStyle: github
@@ -20,44 +22,10 @@ knitr::opts_chunk$set(warning = FALSE,
                       echo = TRUE, 
                       eval = TRUE, 
                       message = FALSE)
-
-library(icons)
 ```
 
-```{r xaringan-panelset, echo=FALSE}
-# this needs to be called that the available option in css gets read
-xaringanExtra::use_panelset()
-```
-
-<!-- here starts the customized title slide - it holds -->
-<!-- div's for the green background -->
-
-<div 
-  style="position: absolute; left: 0px; top: 10px; right: 20px; bottom: 165px; 
-    border: 0px solid black; background-color: #A5D7D2;
-    margin: 20px top 0px left;">
-
-<img src="https://www.unibas.ch/dam/jcr:6358a0ea-352a-4fdf-b4d7-ba144817526b/uni-basel-logo.svg"
-  style="position:absolute; left: 10px">
-
-
-  <div style="position: absolute; left: 90px; top: 110px;">
-
-<!-- specify title and author from here -->
-
-  # A random title
-
-  <br>
-
-  Author, DD.MM.YYYY
-
-
-  <div>
-  
-<div>
-
-<!-- end of the title slide -->
-
+layout: true
+<div class="footer">`r rmarkdown::metadata$author` | `r rmarkdown::metadata$title` | `r rmarkdown::metadata$date` </div>
 ---
 
 # Agenda
@@ -72,32 +40,19 @@ xaringanExtra::use_panelset()
 
 # Random content
 
+- Feel free to include further slides
+
 
 ---
+layout:false
+class: title-slide-final
 
-<!-- thank-you slide -->
+# Thank your for your attention
 
-<div 
-  style="position: absolute; left: 0px; top: 10px; right: 20px; bottom: 165px; 
-    border: 0px solid black; background-color: #A5D7D2;
-    margin: 20px top 0px left;">
+<div style="position: absolute; left: 100px; bottom: 200px;">
 
-<img src="https://www.unibas.ch/dam/jcr:6358a0ea-352a-4fdf-b4d7-ba144817526b/uni-basel-logo.svg" 
-  style="position:absolute; left: 10px">
-  <div style="position: absolute; left: 100px; top: 120px;">
-<br>
-  # Thank you for your attention 
-  
-  <br><br>
+`r icons::fontawesome("github")` your_handle </a>  
+`r icons::fontawesome("twitter")` @your_handle</a>  
+`r icons::academicons("orcid")` https://orcid.org/0000-XXXX-XXXX-XXXX </a>
 
-<div style="position: absolute; left: 15px;">
-
-<a href="https://github.com/cathblatter">`r fontawesome("github")` cathblatter </a>  
-<a href="https://twitter.com/cathblatter">`r fontawesome("twitter")` @cathblatter</a>  
-<a href="https://orcid.org/0000-0002-4069-7178">`r academicons("orcid")` https://orcid.org/0000-0002-4069-7178 </a>
-<!-- `r academicons("researchgate")` [Catherine Blatter](https://www.researchgate.net/profile/Catherine-Blatter) -->
-<!-- twitter blue:: #1da1f2 -->
-
-  <div>
-  
 <div>
