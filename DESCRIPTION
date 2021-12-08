@@ -2,7 +2,12 @@ Package: cblttr
 Type: Package
 Title: cblttr
 Version: 0.0.3.9001
-Authors@R: person("Catherine", "Blatter", email = "catherine.blatter@unibas.ch", role = c("aut", "cre"))
+Authors@R: 
+    person(given = "Catherine", 
+           family = "Blatter", 
+           email = "catherine.blatter@unibas.ch", 
+           role = c("aut", "cre"),
+           c(ORCID = "0000-0002-4069-7178"))
 Description: This package contains several helper functions for 
         personal use. No guarantee in using the package. If you think some content
         is usable for you, please mention me. 
