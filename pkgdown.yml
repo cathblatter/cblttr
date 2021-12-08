@@ -1,6 +1,9 @@
 pandoc: 2.7.3
-pkgdown: 1.6.1
+pkgdown: 2.0.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2021-10-14T19:04Z
+last_built: 2021-12-08T13:30Z
+urls:
+  reference: https://cathblatter.github.io/cblttr/reference
+  article: https://cathblatter.github.io/cblttr/articles
 
