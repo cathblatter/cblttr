@@ -7,7 +7,7 @@ Authors@R:
            family = "Blatter", 
            email = "catherine.blatter@unibas.ch", 
            role = c("aut", "cre"),
-           c(ORCID = "0000-0002-4069-7178"))
+           comment = c(ORCID = "0000-0002-4069-7178"))
 Description: This package contains several helper functions for 
         personal use. No guarantee in using the package. If you think some content
         is usable for you, please mention me. 
