@@ -209,7 +209,7 @@ a, a > code {
 .title-slide-final{
   position: aboslute;
   background-image: url(https://www.unibas.ch/dam/jcr:6358a0ea-352a-4fdf-b4d7-ba144817526b/uni-basel-logo.svg);
-  background-position: 0px 15px;
+  background-position: 20px 15px;
   background-color: var(--mint);
   border-width: 15px 15px 180px 0px;
   border-style: solid;
