@@ -1,7 +1,7 @@
 Package: cblttr
 Type: Package
 Title: cblttr
-Version: 0.0.3.9001
+Version: 0.0.4.9001
 Authors@R: 
     person(given = "Catherine", 
            family = "Blatter", 
