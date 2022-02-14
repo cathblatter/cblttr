@@ -156,16 +156,15 @@ a, a > code {
 
 .title-slide {
   background-image: url(https://www.unibas.ch/dam/jcr:6358a0ea-352a-4fdf-b4d7-ba144817526b/uni-basel-logo.svg);
-  background-position: 0px 15px;
+  background-position: 20px 15px;
   border-width: 15px 15px 180px 0px;
-  background-color: var(--mint);
   border-style: solid;
   border-color: var(--white);
 }
 
 .title-slide h1 {
   position: relative;
-  left: 30px;
+  left: 40px;
   padding-top: 10px;
   font-size: 60px;
   text-align: left;
@@ -177,7 +176,7 @@ a, a > code {
 
 .title-slide h2 {
   position: relative;
-  left: 30px;
+  left: 40px;
   font-size: 40px;
   text-align: left;
   padding-top: 0px;
@@ -189,7 +188,7 @@ a, a > code {
 
 .title-slide h3 {
   position: relative;
-  left: 30px;
+  left: 40px;
   font-size: 30px;
   color: #26272A;
   text-align: left;
@@ -210,7 +209,7 @@ a, a > code {
 .title-slide-final{
   position: aboslute;
   background-image: url(https://www.unibas.ch/dam/jcr:6358a0ea-352a-4fdf-b4d7-ba144817526b/uni-basel-logo.svg);
-  background-position: 0px 15px;
+  background-position: 20px 15px;
   background-color: var(--mint);
   border-width: 15px 15px 180px 0px;
   border-style: solid;
