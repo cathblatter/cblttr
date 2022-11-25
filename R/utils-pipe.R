@@ -19,7 +19,6 @@ NULL
 #' @return
 #' @export
 #'
-#' @examples
 insertInAddin <- function() {
   rstudioapi::insertText(" %in% ")
 }

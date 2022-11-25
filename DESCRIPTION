@@ -34,7 +34,8 @@ Imports:
     openxlsx,
     lifecycle,
     rlang,
-    xaringan
+    xaringan, 
+    rstudioapi
 Remotes:
     mitchelloharawild/icons
 Suggests: knitr,
