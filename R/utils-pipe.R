@@ -12,3 +12,14 @@
 #' @param rhs A function call using the magrittr semantics.
 #' @return The result of calling `rhs(lhs)`.
 NULL
+
+
+#' Insert '%in%
+#'
+#' @return
+#' @export
+#'
+#' @examples
+insertInAddin <- function() {
+  rstudioapi::insertText(" %in% ")
+}
