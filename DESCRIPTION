@@ -14,27 +14,18 @@ Description: This package contains several helper functions for
 License: GPL-3
 Encoding: UTF-8
 URL: https://github.com/cathblatter/cblttr/,
-    https://cathblatter.github.io/cblttr
+     https://cathblatter.github.io/cbltt
 BugReports: https://github.com/cathblatter/cblttr/issues
 LazyData: true
 Depends: R (>= 2.10)
 Imports:
     dplyr (>= 0.7.5),
-    ggplot2 (>= 2.2.1),
-    crayon,
     tibble,
     magrittr,
-    tableone,
     purrr,
-    kableExtra,
-    stats,
     base,
-    methods,
-    graphics,
     openxlsx,
-    lifecycle,
     rlang,
-    xaringan, 
     rstudioapi
 Remotes:
     mitchelloharawild/icons
