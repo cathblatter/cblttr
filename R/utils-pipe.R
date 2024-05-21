@@ -13,12 +13,3 @@
 #' @return The result of calling `rhs(lhs)`.
 NULL
 
-
-#' Insert '%in%
-#'
-#' @return
-#' @export
-#'
-insertInAddin <- function() {
-  rstudioapi::insertText(" %in% ")
-}

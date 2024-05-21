@@ -17,6 +17,9 @@ a dataframe
 \description{
 Add counts of multiple columns at once
 }
+\examples{
+mtcars |> add_counts(cyl, vs, am)
+}
 \references{
 Code originally written in R4DS-Channel by
 https://github.com/HannesOberreiter without testing for edge cases,

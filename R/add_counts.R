@@ -13,6 +13,7 @@
 #' modified for personal use by me
 #'
 #' @examples
+#' mtcars |> add_counts(cyl, vs, am)
 add_counts <- function(df, ...){
   .dots <- rlang::enquos(...)
   # split attributes from our grouping cols
